@@ -5,4 +5,4 @@ data.each do |key, value|
     names.each do |name|
       pigeon_list[name] || = {}
       pigeon_list[name][key] || = [] 
-      pigeon_list[name][key][color]
+      pigeon_list[name][key]
