@@ -6,3 +6,8 @@ data.each do |key, value|
       pigeon_list[name] || = {}
       pigeon_list[name][key] || = [] 
       pigeon_list[name][key].push color.to_s
+    end
+  end
+end
+pigeon_list
+end
