@@ -3,7 +3,7 @@ def nyc_pigeon_organizer(data)
    data.each do |key, value|
      value.each do |color, name|
        name.each do |name|
-         if pigeon_list[name] === false 
+         if pigeon_list[name].nil?
            pigeon_list[name] = key
          end
        end
