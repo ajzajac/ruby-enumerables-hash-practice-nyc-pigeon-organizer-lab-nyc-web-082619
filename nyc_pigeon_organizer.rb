@@ -4,5 +4,9 @@ def nyc_pigeon_organizer(data)
      value.each do |color, name|
        name.each do |name|
          if pigeon_list[name] === false 
-           pigeon_list[name]
+           pigeon_list[name] = key
+         end
+       end
+     end
+     pigeon_list
 end
